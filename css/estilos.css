@@ -36,7 +36,6 @@ main {
 /*    HEADER */
 
 header {
-    background-color: var(--paleta-verde-claro);
     padding: 1.5rem;
 }
 
@@ -70,7 +69,7 @@ nav a:hover {
 /*    TITULOS Y TEXTO */
 
 h1 {
-    color: var(--main-bg-color);
+    color: var(--paleta-lavanda);
     font-size: 3rem;
     margin-bottom: 1rem;
 }
