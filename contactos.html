@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invernalia - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel=stylesheet href=css/estilos.css>
 </head>
-
 <body>
     <header>
         <h1>Invernalia</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Explicabo cumque quisquam excepturi consequuntur sunt deserunt.
-            Voluptas incidunt iure laudantium quidem quas dolorem, dignissimos odio fugit magnam temporibus, quibusdam
-            vitae sapiente.
+            El invierno está llegando y lo sabemos.
         </p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ciudad.html">La ciudad</a></li>
+                <li><a href="lugares.html">Lugares de interés</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="ciudad.html">Caracteristicas</a></li>
-            <li><a href="lugares.html">Lugares de interés</a></li>
-            <li><a href="contactos.html">Contacto</a></li>
-        </ul>
-    </nav>
+
     <main>
+
         <section>
             <h2>Contacto</h2>
+
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Explicabo cumque quisquam excepturi consequuntur sunt deserunt.
-                Voluptas incidunt iure laudantium quidem quas dolorem, dignissimos odio fugit magnam temporibus,
-                quibusdam vitae
-                sapiente.
+                Esperamos tu llamado, queremos que nos visites.
             </p>
-            <article>
+
+            <article class="datos-contacto">
                 <h3>Oficina de Turismo de Invernalia</h3>
+
                 <p>
                     <strong>Dirección:</strong>
                     Avenida del Invierno 1250, Invernalia
                 </p>
+
                 <p>
                     <strong>Teléfono:</strong>
                     <a href="tel:+541112345678">
                         (011) 1234-5678
                     </a>
                 </p>
+
                 <p>
                     <strong>Correo electrónico:</strong>
                     <a href="mailto:turismo@invernalia.com">
@@ -56,26 +57,50 @@
                 </p>
             </article>
         </section>
-        <section>
+
+        <section class="horarios">
             <h2>Horarios de atención</h2>
+        
             <p>
                 La oficina de turismo se encuentra abierta de lunes
                 a viernes de 9:00 a 18:00 y los fines de semana
                 de 10:00 a 16:00.
             </p>
         </section>
+
         <section>
+            <h2>Escribinos</h2>
+
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+
+        <section class="redes">
             <h2>Redes sociales</h2>
+
             <p>
                 También podés seguir las novedades de Invernalia
                 a través de nuestras redes sociales.
             </p>
-            <ul>
+
+            <ul class="redes-sociales">
                 <li>
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                         Instagram de Invernalia
                     </a>
                 </li>
+
                 <li>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                         Facebook de Invernalia
@@ -83,18 +108,24 @@
                 </li>
             </ul>
         </section>
+
+
         <aside>
             <h2>Información para visitantes</h2>
+
             <p>
                 Antes de visitar la ciudad, te recomendamos conocer
                 nuestros <a href="lugares.html">lugares de interés</a>
                 y las principales actividades que ofrece Invernalia.
             </p>
         </aside>
+
     </main>
+
     <footer>
         <p>2026 Invernalia. Sitio web</p>
     </footer>
+
 </body>
 
 </html>
