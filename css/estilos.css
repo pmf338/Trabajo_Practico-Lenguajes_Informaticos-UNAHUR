@@ -46,6 +46,8 @@ header {
 /* Agregado: distribucion horizontal del menu con Flexbox */
 nav ul {
     display: flex;
+    gap: 2rem;
+    flex: 1 1px;
     justify-content: space-between;
     list-style: none;
 }
