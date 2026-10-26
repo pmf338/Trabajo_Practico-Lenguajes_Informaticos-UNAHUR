@@ -327,3 +327,14 @@ footer p {
     color: var(--main-bg-color);
 }
 
+/* Flexbox - Barrios y zonas */
+
+#zonas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#zonas article {
+    flex: 1 1 250px;
+}
