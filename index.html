@@ -14,18 +14,30 @@
 </head>
 
 <body>
-    <header>
+        <header class="navbar navbar-expand-lg navbar-light">
         <h1>Invernalia</h1>
         <p>
             Bienvenidos a nuestra web oficial.
         </p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="ciudad.html">La ciudad</a></li>
-                <li><a href="lugares.html">Lugares de interés</a></li>
-                <li><a href="contactos.html">Contacto</a></li>
-            </ul>
+        
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom container-fluid">
+
+            <a class="navbar-brand fw-bold" href="#">Invernalia</a>
+
+            <!-- BOTON HAMBURGESA -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarInvernalia" aria-controls="navbarInvernalia" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU -->
+            <div class="collapse navbar-collapse" id="navbarInvernalia">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ciudad.html">La ciudad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares de interés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactos.html">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>

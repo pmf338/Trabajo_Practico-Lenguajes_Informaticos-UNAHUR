@@ -38,6 +38,7 @@ main {
 
 header {
     padding: 1.5rem;
+    background-color: var(--paleta-celeste-claro);
 }
 
 
@@ -254,7 +255,7 @@ textarea {
 
 /* Modificado: se agrego padding y centrado del contenido */
 footer {
-    background-color: var(--paleta-azul-oscuro);
+    background-color: var(--paleta-celeste-claro);
     padding: 1.5rem;
     text-align: center;
 }
@@ -327,3 +328,4 @@ footer p {
     color: var(--main-bg-color);
 }
 
+/*-------------------------- Bootstrap - personalizaciones --------------------------*/
