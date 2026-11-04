@@ -339,3 +339,71 @@ footer p {
 #zonas article {
     flex: 1 1 250px;
 }
+
+/* Boostrap - personalizaciones */
+
+header.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-brand-titulo {
+    margin-bottom: 0.25rem;
+}
+
+header .navbar-brand {
+    color: var(--paleta-lavanda);
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0;
+}
+
+header .navbar-brand:hover {
+    color: var(--paleta-naranja-claro);
+}
+
+.header-subtitulo {
+    color: var(--paleta-lavanda);
+    margin-bottom: 1rem;
+}
+
+nav.navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 1 1px;
+    justify-content: flex-start;
+}
+
+@media (min-width: 992px) {
+    nav.navbar ul {
+        flex-direction: row;
+    }
+}
+
+.navbar-custom {
+    background-color: var(--paleta-celeste-claro);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-custom .nav-link {
+    color: var(--paleta-lavanda);
+    font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: var(--paleta-naranja-claro);
+}
+
+/* Botón hamburguesa */
+.navbar-custom .navbar-toggler {
+    border-color: var(--paleta-lavanda);
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28247, 240, 245, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
