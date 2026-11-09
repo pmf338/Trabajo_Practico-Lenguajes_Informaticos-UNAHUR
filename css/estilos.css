@@ -407,3 +407,28 @@ nav.navbar ul {
 .navbar-custom .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28247, 240, 245, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+/* Bootstrap - Cards de la pagina de inicio */
+
+.card {
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--paleta-celeste-claro);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Bootstrap - Badges de categoria en lugares de interes */
+
+.badge-invernalia {
+    background-color: var(--paleta-verde-claro);
+    color: var(--main-bg-color);
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
