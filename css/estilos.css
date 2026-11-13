@@ -41,35 +41,6 @@ header {
     background-color: var(--paleta-celeste-claro);
 }
 
-
-/*    NAVEGACION */
-
-/* Agregado: distribucion horizontal del menu con Flexbox */
-nav ul {
-    display: flex;
-    gap: 2rem;
-    flex: 1 1px;
-    justify-content: space-between;
-    list-style: none;
-}
-
-/* Agregado: separacion entre el titulo y el menu */
-nav {
-    margin-top: 1rem;
-}
-
-/* Agregado: estilos especificos para los enlaces del menu */
-nav a {
-    text-decoration: none;
-    color: var(--paleta-lavanda);
-}
-
-/* Agregado: cambio de color al pasar el mouse */
-nav a:hover {
-    color: var(--paleta-naranja-claro);
-}
-
-
 /*    TITULOS Y TEXTO */
 
 h1 {
@@ -340,7 +311,9 @@ footer p {
     flex: 1 1 250px;
 }
 
-/* Boostrap - personalizaciones */
+/* ######################### BOOSTRAP ############################## */
+
+/* NAVBAR */
 
 header.navbar {
     display: flex;
@@ -369,31 +342,44 @@ header .navbar-brand:hover {
     margin-bottom: 1rem;
 }
 
-nav.navbar ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    flex: 1 1px;
-    justify-content: flex-start;
-}
-
-@media (min-width: 992px) {
-    nav.navbar ul {
-        flex-direction: row;
-    }
-}
-
 .navbar-custom {
     background-color: var(--paleta-celeste-claro);
     border-radius: 8px;
     padding: 0.5rem 1rem;
 }
 
+nav {
+    margin-top: 1rem;
+}
+
+/* Distribucion del menu */
+nav ul,
+nav.navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    nav ul,
+    nav.navbar ul {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+/* Enlaces del menu */
+nav a,
 .navbar-custom .nav-link {
+    text-decoration: none;
     color: var(--paleta-lavanda);
     font-weight: 500;
 }
 
+nav a:hover,
 .navbar-custom .nav-link:hover,
 .navbar-custom .nav-link.active {
     color: var(--paleta-naranja-claro);
@@ -408,7 +394,7 @@ nav.navbar ul {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28247, 240, 245, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* Bootstrap - Cards de la pagina de inicio */
+/* CARDS */
 
 .card {
     padding: 0;
@@ -424,7 +410,7 @@ nav.navbar ul {
     object-fit: cover;
 }
 
-/* Bootstrap - Badges de categoria en lugares de interes */
+/* Badges de categoria en lugares de interes */
 
 .badge-invernalia {
     background-color: var(--paleta-verde-claro);
