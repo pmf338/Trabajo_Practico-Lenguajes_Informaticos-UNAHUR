@@ -418,3 +418,76 @@ nav a:hover,
     font-size: 0.9rem;
     vertical-align: middle;
 }
+
+/*Modo Oscuro*/
+body.oscuro {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+}
+
+/*Ajustes del Modo Oscuro*/
+body.oscuro header,
+body.oscuro footer,
+body.oscuro section,
+body.oscuro article,
+body.oscuro aside,
+body.oscuro nav {
+    background-color: #242424;
+    color: #f5f5f5;
+}
+
+body.oscuro h1,
+body.oscuro h2,
+body.oscuro h3,
+body.oscuro p,
+body.oscuro li,
+body.oscuro a,
+body.oscuro dt,
+body.oscuro dd {
+    color: #f5f5f5;
+}
+
+/*Botones*/
+body.oscuro .btn {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #555555;
+}
+
+body.oscuro button {
+    color: #ffffff;
+}
+
+body.oscuro #btn-modo {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #666666;
+}
+
+/*Enlaces y descripciones*/
+body.oscuro nav a,
+body.oscuro figcaption {
+    color: #f5f5f5 !important;
+}
+
+/*Formulario*/
+body.oscuro form {
+    background-color: #242424 !important;
+    color: #f5f5f5;
+}
+
+body.oscuro form label {
+    color: #f5f5f5 !important;
+}
+
+body.oscuro form input,
+body.oscuro form textarea {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #666666;
+}
+
+body.oscuro form input::placeholder,
+body.oscuro form textarea::placeholder {
+    color: #cccccc;
+}
