@@ -7,4 +7,3 @@
 - Dante Gregorutti - Elovidante
 - Naiara Moreno - naiaraaylenmoreno
 - Pablo Ferrari - pmf338
-- Sebastián Sebastiani - sebastianiez
