@@ -213,6 +213,21 @@ textarea {
     min-height: 120px;
 }
 
+/* Mensajes de validación*/
+
+#msg-adhesion {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+#msg-adhesion.error {
+    color: var(--paleta-naranja-claro);
+}
+
+#msg-adhesion.exito {
+    color: var(--paleta-verde-claro);
+}
+
 /*    FOOTER */
 
 footer {
