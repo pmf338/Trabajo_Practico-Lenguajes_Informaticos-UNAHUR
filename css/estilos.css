@@ -488,3 +488,21 @@ body.oscuro form textarea::placeholder {
     justify-content: flex-end;
     padding: 1rem;
 }
+
+/*Mostrar/ocultar contenido (Ver más)*/
+.oculto {
+    display: none;
+}
+
+.btn-ver-mas {
+    background-color: var(--paleta-naranja-claro);
+    color: var(--main-bg-color);
+    font-weight: 600;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.btn-ver-mas:hover {
+    background-color: var(--paleta-verde-claro);
+    color: var(--main-bg-color);
+}
