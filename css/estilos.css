@@ -99,7 +99,6 @@ section {
 
 /*    ARTICULOS */
 
-/* Modificado: se agrego fondo para diferenciar visualmente cada articulo */
 article {
     margin-bottom: 1.5rem;
     padding: 1rem;
@@ -113,10 +112,6 @@ article p {
 
 /*    IMAGENES */
 
-/* Agregado: evita que las imagenes superen el ancho del contenedor */
-/* Agregado: mantiene la proporcion original */
-/* Agregado: permite tratarlas como bloques */
-/* Agregado: centra las imagenes horizontalmente */
 img {
     max-width: 100%;
     height: auto;
@@ -127,7 +122,6 @@ img {
 
 /*    CONTENIDO COMPLEMENTARIO */
 
-/* Agregado: estilo visual para los aside */
 aside {
     padding: 1rem;
     margin-bottom: 2rem;
@@ -135,7 +129,6 @@ aside {
     border-radius: 8px;
 }
 
-/* Agregado: mejora contraste en aside */
 aside p {
     color: var(--main-bg-color);
 }
@@ -156,8 +149,6 @@ aside a:hover {
 
 /*    FORMULARIO */
 
-/* Agregado: campos del formulario ocupan todo el ancho disponible */
-/* Agregado: espacio interno para mejorar la legibilidad */
 input,
 textarea {
     width: 100%;
@@ -224,7 +215,6 @@ textarea {
 
 /*    FOOTER */
 
-/* Modificado: se agrego padding y centrado del contenido */
 footer {
     background-color: var(--paleta-celeste-claro);
     padding: 1.5rem;
